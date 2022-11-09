@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+input, label, h1{
+    display: block;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 400px;
+    height: 500px;
+    background-color: grey;
+    padding-left:15px ;
+}
+h1{
+    color: yellow;
+    font-family: sans-serif;
+    font-size: x-large;
+    padding-top: 10px;
+}
+label, p{
+    padding-top: 5px;
+    color: aliceblue;
+    font-size: larger;
+}
+input, textarea,select{
+    border-radius: 5px, 5px, 5px;
+    width: 80%;
+    padding-top: 5px;
+}
+#sub{
+    width: 40%;
+    background-color: yellow;
+    border-style: none;
+    padding-top: 5px;
+    height: 30px;
+    text-align: center;
+}
